@@ -1,0 +1,75 @@
+- a solution which works for literally every single project
+	- like there shouldn't be a single project in the whole world which doesn't need us
+- a solution so good you don't need it (gh? don't need it just use git lol)
+
+
+DONT FORGET FACTORIO IS A GAME ABOUT AUTOMATION
+- so screw the first time guys check out this url flow
+- or maybe it just redirects you to .... whatever idk
+
+
+
+
+- compute: daemons
+- us: tasks - functions with inputs/outputs and maybe state
+	- stage: git, preferably as minimal as possible
+
+- we should be as fundamental as compute, networking, and storage
+- git for vcs - this is a natural extension? or... who cares this is the everhything task runner
+
+makefile for ci
+just ci how ci was supposed to be from the start
+
+whats the diff between dependabot/renovate and ci
+
+doesn't matter - factorio is a game about automation, so you can start by automating the simple shit
+
+not deployment - that's handled by cf pages push or whatever
+- note: we could make deployment, but that would be pointless :) that says something about the existing providers :) - they are good!
+
+
+
+
+never have not the best possible experience
+
+
+config:
+- file based config - generate with cursor then run the cli or something
+- interactive/live system config (idk)
+
+
+- always run locally, right after what you are doing
+	- don't run the whole test suite and ci lint if all u changed was one thing
+
+
+
+- run every task locally or remotely
+	- build
+	- update deps
+	- deploy
+
+- ANY WORKFLOW - EVERY WORKFLOW
+
+
+
+
+
+
+
+i've made this list like 20 times.....
+- just start with what you know..
+
+contenders
+
+
+deployment - preview deployments?
+cf pages
+- push from cli
+- or let them hook up to ur git repo
+heroku push to deploy
+
+
+ci - run locally?
+gh actions - gh actions feels bad
+https://www.rwx.com/blog/git-push-to-run-ci-cd-is-a-terrible-developer-experience
+laminar - unixy lol, must self host - maybe thats what ci should be after all....
